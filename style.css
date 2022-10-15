@@ -1,0 +1,116 @@
+*{
+	
+}
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	background: rgb(39, 123, 192);
+}
+
+header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0 0 0 0;
+	background-color: rgb(39, 123, 192)
+}
+header a.logo{
+	position: relative;
+	top: 50%;
+	left: 1%;
+	text-decoration: none;
+	color: rgb(34, 40, 49);
+}
+nav{
+	position: relative;
+	top: 50%;
+	right: 20px;
+	height: ;
+	position: relative;
+	padding: 6px 6px;
+	align-content: center;
+}
+
+ul{
+	display: flex;
+	flex-direction: row;
+	padding: 10px 0;
+	width: 300px;
+	justify-content: space-between;
+
+}
+li{
+	list-style: none;
+	padding: 0 0 0 0;
+	justify-content: space-evenly;
+	
+}
+li a{
+	text-decoration: none;
+	color:  rgb(34, 40, 49);
+	font-size: 1em;
+	padding: 6px 12px;
+}
+li a:hover{
+	background: rgb(255, 211, 105);
+	color: rgb(57, 62, 70);
+	border-radius: 6px;
+	font-size: 18px;
+}
+section{
+	height: 90vh;
+	padding: 0px auto;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.container{
+	
+	padding: 0 0 0 0;
+}
+.cont2{
+	padding: 0 0 0 0;
+	background-color: rgb(39, 123, 192);
+	text-align: left;
+}
+.cont2 .name{
+	font-size: 1.5em;
+	color: rgb(255, 178, 0);
+}
+section div h3{
+	padding: 0;
+	margin-top: 0px;
+}
+
+button{
+	display: inline-block;
+	top: 60px;
+	background: inherit;
+	padding: 12px 26px;
+	color: rgb(255, 178, 0);
+	border-radius: 6px;
+	margin-right: 25px;
+	border: 2px solid rgb(255, 178, 0);
+}
+button:hover{
+	background: rgb(255, 211, 105);
+	color: rgb(57, 62, 70);
+	padding: 18px 32px;
+	font-size: 19px;
+	
+}
+footer{
+	background: rgb(238, 238, 238);
+}
+.socials{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding: 0;
+	text-decoration: none;
+	color: rgb(34, 40, 49);
+	margin-bottom: 0 0 0 0;
+}
