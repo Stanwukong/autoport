@@ -26,7 +26,6 @@ nav{
 	position: relative;
 	top: 50%;
 	right: 20px;
-	height: ;
 	position: relative;
 	padding: 6px 6px;
 	align-content: center;
@@ -113,4 +112,30 @@ footer{
 	text-decoration: none;
 	color: rgb(34, 40, 49);
 	margin-bottom: 0 0 0 0;
+}
+.contact{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	top: 300px;
+}
+.contact h2{
+	font-size: 40px;
+	color: rgb(255, 178, 0);
+}
+.contact p{
+	font-size: 20px;
+	color: rgb(0, 0, 0);
+}
+.socials{
+	font-size: 30px;
+	width: 300px;
+	justify-content: space-between;
+}
+.socials a{
+	text-decoration: none;
+	color:  rgb(255, 178, 0);
 }
