@@ -21,6 +21,12 @@ header a.logo{
 	left: 1%;
 	text-decoration: none;
 	color: rgb(34, 40, 49);
+	font-size: 15px;
+}
+.mi{
+	color: rgb(255, 211, 105);
+	font-size: 20px;
+
 }
 nav{
 	position: relative;
@@ -79,6 +85,9 @@ section{
 	font-size: 1.5em;
 	color: rgb(255, 178, 0);
 }
+.name:hover{
+	color: rgb(238, 238, 238);
+}
 section div h3{
 	padding: 0;
 	margin-top: 0px;
@@ -97,8 +106,9 @@ button{
 button:hover{
 	background: rgb(255, 211, 105);
 	color: rgb(57, 62, 70);
-	padding: 18px 32px;
+	padding: 10px 20px;
 	font-size: 19px;
+	box-shadow: 0px 3px 5px rgba(193, 140, 17, 0.5);
 	
 }
 footer{
